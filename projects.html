@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Assets/TownLogo/favicon.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.2.0/dist/lenis.css">
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Projects - Townbell</title>
+</head>
+<body>
+    <nav class="w-[var(--full-width)] flex items-center justify-center fixed top-[30px] z-[9999]">
+        <header class="w-[85%] lg:w-[950px] rounded-[44px] py-[6px] pl-[20px] pr-[7px] bg-[#0d0d0d33] transition-all duration-300 ease-in-out overflow-hidden">
+            <div class="header-top flex items-center justify-between">
+                <div class="logo">
+                    <a href="index.html">
+                        <img class="lg:w-[130px] w-[100px]" src="./Assets/TownLogo/Townlogo.png" alt="townbell">
+                    </a>
+                </div>
+                <div class="links flex items-center gap-[10px]">
+                    <ul class="hidden lg:flex items-center nav-menu">
+                        <li class="px-[16px] py-[14px] rounded-[50px]">
+                            <a class="syne flex text-[16px] font-semibold leading-[1em] text-[#ffffffcc]" href="index.html">Home</a>
+                        </li>
+                        <li class="px-[16px] py-[14px] rounded-[50px]">
+                            <a class="syne flex text-[16px] font-semibold leading-[1em] text-[#ffffffcc]" href="about.html">About</a>
+                        </li>
+                        <li class="px-[16px] py-[14px] rounded-[50px]">
+                            <a class="syne flex text-[16px] font-semibold leading-[1em] text-[#ff7a3b]" href="projects.html">Projects</a>
+                        </li>
+                        <li class="px-[16px] py-[14px] rounded-[50px]">
+                            <a class="syne flex text-[16px] font-semibold leading-[1em] text-[#ffffffcc]" href="blogs.html">Blogs</a>
+                        </li>
+                        <li class="px-[16px] py-[14px] rounded-[50px]">
+                            <a class="syne flex text-[16px] font-semibold leading-[1em] text-[#ffffffcc]" href="contact.html">Contact us</a>
+                        </li>
+                    </ul>
+                     <button class="syne text-[#0d0d0d] bg-white text-[16px] leading-[1em] font-bold px-[33px] py-[17px] items-center gap-[7px] rounded-[50px] cursor-pointer hidden lg:flex">
+                        <div class="red-circle w-[12px] h-[12px] bg-[#FF000D] rounded-full"></div>                        
+                        <span>Let's Talk</span>
+                    </button>
+                    <div class="hamburger lg:hidden">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </nav>
+
+    <div class="hero w-full h-screen flex flex-col items-center justify-center">
+        <h1 class="syne text-[30px] lg:text-[70px] md:text-[50px] font-bold text-white leading-[1em] text-center w-[85%] lg:w-[80%]">Our Projects</h1>
+        <p class="inter text-[16px] md:text-[17px] leading-[1.5em] text-center text-white mt-[10px] mb-[25px] w-[75%] lg:w-[45%] md:w-[60%]">Explore our portfolio of quality homes</p>
+    </div>
+
+    <script src="https://unpkg.com/lenis@1.2.0/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
