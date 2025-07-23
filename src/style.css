@@ -208,7 +208,7 @@ button.hover-btn:hover::before{
 }
 
 .concept-parent{
-    padding-top: 40px;
+    padding-top: 60px;
     background-color: black;
 }
 .concept-cards .concept-card {
@@ -289,7 +289,7 @@ button.hover-btn:hover::before{
 }
 
 .pros{
-    padding-top: 40px;
+    padding-top: 60px;
 }
 
 .pros-bento-layout .bento-card{
@@ -718,7 +718,7 @@ button.hover-btn:hover::before{
     transition: all ease 0.3s;
 }
 .footer-inner .footer-bottom a:hover span:nth-child(1) svg path{
-    fill: #FF7A3B;
+    fill: #6f1539;
 }
 .footer-inner .footer-bottom a:hover span:nth-child(1) svg{
     width: 35px !important;
