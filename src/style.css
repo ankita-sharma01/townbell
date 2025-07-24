@@ -203,6 +203,9 @@ button.hover-btn:hover::before{
 .portfolio-cards .card{
     transition: all ease 0.3s;
 }
+.portfolio-cards .card h3{
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
 .portfolio-cards .card .card-cursor{
     backdrop-filter: blur(10px);
 }
@@ -351,7 +354,11 @@ button.hover-btn:hover::before{
     padding-bottom: 35px;
 
 }
+.pros-bento-layout .bento-card h3{
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
 .pros-bento-layout .bento-card .text-overlay h3{
+    display:block;
     background-image: linear-gradient(93deg, rgb(111, 21, 57), rgb(255, 171, 66) 42.494226327944574%, rgb(9, 93, 93), rgb(255, 99, 111) 100%);
     background-clip: text;
     transition: all ease 0.3s;
